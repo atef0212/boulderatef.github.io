@@ -1,0 +1,93 @@
+body {
+  background-image: url(./images/VideoCapture_20220809-155655.jpg);
+
+  background-size: cover;
+}
+h1 {
+  font-size: 60px;
+  color: blue;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  word-spacing: 10px;
+  letter-spacing: 7px;
+}
+h1:hover{
+  color: yellowgreen;
+}
+nav {
+  
+  font-size: 50px;
+}
+
+nav ul {
+  margin-top: 300px;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  
+}
+
+nav li {
+  margin: 0 15px;
+  
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #5f10dd;
+  height: auto;
+} 
+
+
+nav{ color: rgb(5, 245, 5);
+font-size: 60px;
+word-spacing: 20px;
+}
+
+.ads{
+  border: 2px hidden black;
+  width: 300px;
+  padding: 20px;
+  }
+  .ads{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .ads{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+.ads div{
+  border: 2px hidden black;
+  
+  padding: 5px 0 5px 0;
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+  display: inline-block
+  
+}
+.ads div:hover{ color: aqua;
+}
+.ads p{
+  border: 2px hidden black;
+  font-size: 25px;
+  color: rgb(11, 15, 238);
+  margin: auto;
+  padding: auto;
+  
+}
+
+
+
+
+
+

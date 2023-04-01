@@ -1,0 +1,50 @@
+
+.buchen {
+  border: 5px hidden black;
+  width: auto;
+  height: 700px;
+  border-left-width: 100%;
+  margin: 0 70px;
+}
+.buchen{
+  position: absolute;
+  right: 50;
+  bottom: 20;
+}
+ 
+
+ 
+h2 {
+  border: 2px hidden black;
+  color: rgb(7, 218, 137);
+  font-size: 50px;
+  padding: auto;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  height: 5vh;
+ display: flex;
+ justify-content: center;
+}
+h2:hover{
+  color: blue;
+}
+
+.buchen ul{
+  
+  border: 2px hidden rgb(219, 11, 11);
+  width: 700px;
+  height: 250px;
+  color: rgb(13, 248, 33);
+  margin-bottom: 50pc;
+  
+ 
+}
+.buchen li{
+  font-size: 35px;
+  color: rgb(27, 13, 233);
+  font-weight: bold;
+  padding: 20px;
+  margin: auto;
+  list-style: none;
+ text-align: left;
+}
+

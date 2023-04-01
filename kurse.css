@@ -1,0 +1,56 @@
+.card-container {
+  border: 3px hidden black;
+  width: 600px;
+  height: auto;
+margin-left: 30%;
+display: flex;
+flex-direction: column;
+
+
+}
+
+h1{
+    color: rgb(18, 18, 19);
+    font-size: 60px;
+    border: 2px hidden #290f0f;
+    align-items: center;
+    height: 5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    
+
+}
+h1:hover{
+    color: blue;
+}
+.card{
+    
+    width: calc(70% - 30px);
+    margin-bottom: 20px;
+    border: 1px hidden #141313;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    padding: 0 0 0 100px;
+    
+ }
+ .card{ 
+    background-image: url(./images/indoor-kletterhalle_1308-105368.avif);
+background-size: cover; 
+
+}
+.card div{
+    color: rgb(8, 146, 15);
+    font-style: italic;
+    font-size: 50px;
+    
+   
+}
+.card div:hover {
+    color: black;
+    height: auto;
+}
+    
+    
